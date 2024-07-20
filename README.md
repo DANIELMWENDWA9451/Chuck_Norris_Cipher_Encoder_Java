@@ -1,8 +1,28 @@
-This is the *Chuck Norris Cipher Encoder (Java)* project I made myself.
+# Chuck Norris Cipher Encoder (Java)
 
+This project implements the Chuck Norris Cipher Encoder and Decoder in Java.
 
-<p>Secret agents use encryption all the time. You know that everything can be encrypted as different characters. What about encryption that uses only one character and space? This method has a name — the Chuck Norris cipher. In this project, you will create a program that can encrypt any text into a sequence of zeros and spaces and decrypt this sequence into text.</p><br/><br/>Learn more at <a href="https://hyperskill.org/projects/293?utm_source=ide&utm_medium=ide&utm_campaign=ide&utm_content=project-card">https://hyperskill.org/projects/293</a>
+## How to Use
 
-Here's the link to the project: https://hyperskill.org/projects/293
+1. **Encode a Message**:
+   - Run the program and select the `encode` option.
+   - Enter the message you want to encode.
+   - The encoded message will be displayed.
 
-Check out my profile: https://hyperskill.org/profile/316193018
+2. **Decode a Message**:
+   - Run the program and select the `decode` option.
+   - Enter the encoded message.
+   - The decoded message will be displayed.
+
+3. **Exit**:
+   - Select the `exit` option to terminate the program.
+
+## Requirements
+
+- Java 8 or higher
+
+## Running the Program
+
+```sh
+javac src/chucknorris/Main.java
+java -cp src chucknorris.Main
